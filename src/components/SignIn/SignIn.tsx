@@ -20,7 +20,7 @@ function SignIn(props: SignInProps) {
 
   return (
     <>
-      <form className="p-6 shadow-sm rounded border boder-solid flex flex-col items-center gap-2 w-6/12">
+      <form className="p-6 shadow-md rounded border boder-solid flex flex-col items-center gap-2 w-6/12">
         <div className="w-80">
           <div>
             <input
