@@ -21,7 +21,7 @@ function SignIn(props: SignInProps) {
   return (
     <>
       <form className="p-6 shadow-md rounded border boder-solid flex flex-col items-center gap-2 w-6/12">
-        <div className="w-80">
+        <div className="w-9/12">
           <div>
             <input
               className="w-full p-1 border-2 border-solid border-purple-400 rounded"
@@ -31,7 +31,7 @@ function SignIn(props: SignInProps) {
             />
           </div>
         </div>
-        <div className="w-80">
+        <div className="w-9/12">
           <input
             className="w-full p-1 border-2 border-solid border-purple-400 rounded"
             type="password"
@@ -44,12 +44,12 @@ function SignIn(props: SignInProps) {
           )}
         </div>
         <div
-          className="w-80 flex items-center justify-center cursor-pointer border-2 height-48 p-1 border-solid border-purple-400 rounded"
+          className="w-9/12 flex items-center justify-center cursor-pointer border-2 height-48 p-1 border-solid border-purple-400 rounded"
           onClick={props.handleLoginButton}
         >
           Login
         </div>
-        <div className="w-80 flex flex-row-reverse">
+        <div className="w-9/12 flex flex-row-reverse">
           <p
             onClick={props.handleForgotPassword}
             className="text-sm text-purple-400 cursor-pointer"
@@ -57,9 +57,7 @@ function SignIn(props: SignInProps) {
             Forgot Password?
           </p>
         </div>
-        <div className="relative before:block before:content-[''] before:h-0.5 before:w-32 before:absolute before:top-1/2 before:left-8 before:bg-purple-400 after:block after:content-[''] after:h-0.5 after:w-32 after:absolute after:top-1/2 after:right-8 after:bg-purple-400">
-          Or
-        </div>
+        <div className="flex w-9/12 gap-4 items-center before:content-[''] before:flex-1 before:bg-purple-400 before:h-0.5 after:content-[''] after:flex-1 after:bg-purple-400 after:h-0.5">Or</div>
         <div className="flex gap-4 cursor-pointer">
           <img src="/icons/github.svg" />
           <img src="/icons/google.svg" />
