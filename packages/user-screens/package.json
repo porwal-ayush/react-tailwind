@@ -1,0 +1,51 @@
+{
+  "name": "@prom_ayushp/user-screens",
+  "version": "0.0.7",
+  "type": "module",
+  "description": "sign in and sign up user screens",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/user-screens.umd.cjs",
+  "module": "./dist/user-screens.js",
+  "exports": {
+    ".": {
+      "import": "./dist/user-screens.js",
+      "require": "./dist/user-screens.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porwal-ayush/react-tailwind.git#user-screens"
+  },
+  "keywords": [
+    "user-screens",
+    "signin",
+    "signup"
+  ],
+  "author": "ayushporwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porwal-ayush/react-tailwind/issues"
+  },
+  "homepage": "https://github.com/porwal-ayush/react-tailwind/tree/user-screens#readme"
+}
