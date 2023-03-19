@@ -1,5 +1,5 @@
-import SignIn from './components/SignIn/SignIn';
-import SignUp from './components/SignUp/SignUp';
+import { SignIn } from './packages/user-screens';
+import { SignUp } from './packages/user-screens';
 
 function App() {
   return (

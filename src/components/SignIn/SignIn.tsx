@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import github from '../../icons/github.svg';
+import google from '../../icons/google.svg';
+
 interface SignInProps {
   handleLoginButton: (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>
@@ -57,10 +60,12 @@ function SignIn(props: SignInProps) {
             Forgot Password?
           </p>
         </div>
-        <div className="flex w-9/12 gap-4 items-center before:content-[''] before:flex-1 before:bg-purple-400 before:h-0.5 after:content-[''] after:flex-1 after:bg-purple-400 after:h-0.5">Or</div>
+        <div className="flex w-9/12 gap-4 items-center before:content-[''] before:flex-1 before:bg-purple-400 before:h-0.5 after:content-[''] after:flex-1 after:bg-purple-400 after:h-0.5">
+          Or
+        </div>
         <div className="flex gap-4 cursor-pointer">
-          <img src="/icons/github.svg" />
-          <img src="/icons/google.svg" />
+          <img src={github} />
+          <img src={google} />
         </div>
         <div className="flex gap-2 items-center mb-6">
           <span className="text-sm text-gray-400">Don't have an account? </span>
