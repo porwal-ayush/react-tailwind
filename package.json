@@ -1,13 +1,17 @@
 {
   "name": "@prom_ayushp/user-screens",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build-tailwind": "tailwindcss -i ./src/index.css --output ./src/output.css",
     "build": "tsc && vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/porwal-ayush/react-tailwind/tree/user-screens"
   },
   "dependencies": {
     "react": "^18.2.0",
